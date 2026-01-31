@@ -1,4 +1,3 @@
-```markdown
 # 🤖 A Visual Approach to Explainable RL for Robotic Navigation
 
 [![Paper](https://img.shields.io/badge/MDPI-Paper-blue.svg)](https://www.mdpi.com/2413-4155/6/1/5)
@@ -11,8 +10,6 @@
 
 This repository contains the implementation of a Deep Reinforcement Learning (DRL) navigation agent enhanced with **Explainable AI (XAI)**. It provides real-time visual attention maps (Grad-CAM) to interpret *why* the robot chooses specific navigation actions.
 
----
-
 ## 👁️ Visual Demonstration
 
 The core contribution of this work is "opening the black box" of the navigation policy.
@@ -22,8 +19,6 @@ The core contribution of this work is "opening the black box" of the navigation 
 | :---: | :---: | :--- |
 | <img src="https://via.placeholder.com/250x150/000000/FFFFFF?text=RGB+Input" width="250"> | <img src="https://via.placeholder.com/250x150/FF0000/FFFFFF?text=Grad-CAM+Heatmap" width="250"> | **Obstacle Avoidance:** The agent focuses on the corner edge (red hot-spot) to decide on a left turn. |
 | <img src="https://via.placeholder.com/250x150/000000/FFFFFF?text=Depth+Input" width="250"> | <img src="https://via.placeholder.com/250x150/0000FF/FFFFFF?text=Saliency+Overlay" width="250"> | **Goal Seeking:** Attention is focused on the open corridor center, indicating a "Forward" action. |
-
----
 
 ## 📖 Abstract
 
@@ -35,7 +30,6 @@ Deep Reinforcement Learning has revolutionized robotic navigation, yet the decis
 
 This allows researchers to distinguish between "intelligent behavior" and "environment exploitation" (e.g., an agent detecting a goal based on floor texture rather than geometry).
 
----
 
 ## 🏗️ System Architecture
 
@@ -64,8 +58,6 @@ graph LR
     style I fill:#ff9999,stroke:#333,stroke-width:2px,color:black
 ```
 
----
-
 ## 🚀 Installation
 
 ### Prerequisites
@@ -74,7 +66,6 @@ graph LR
 *   OpenCV
 *   (Optional) ROS Noetic or Unity ML-Agents for simulation
 
-```bash
 # 1. Clone the repository
 git clone https://github.com/your-username/visual-xai-navigation.git
 cd visual-xai-navigation
@@ -85,9 +76,6 @@ source venv/bin/activate  # on Windows use: venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
-```
-
----
 
 ## 🏃 Usage
 
