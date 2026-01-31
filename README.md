@@ -67,7 +67,7 @@ graph LR
 *   (Optional) ROS Noetic or Unity ML-Agents for simulation
 
 # 1. Clone the repository
-git clone https://github.com/your-username/visual-xai-navigation.git
+git clone https:[//github.com/your-username/visual-xai-navigation.git](https://github.com/MdFahimShahoriar/Textile-Visual-Pollutants-Dataset.git)
 cd visual-xai-navigation
 
 # 2. Create a virtual environment
